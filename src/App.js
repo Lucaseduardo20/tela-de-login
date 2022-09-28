@@ -16,7 +16,7 @@ function App() {
     <Background>
       <LoginBox>
         <AiOutlineLock/>
-        <Formulario OnSubmit={Validate}/>
+        <Formulario />
       </LoginBox>
     </Background>
     </>
