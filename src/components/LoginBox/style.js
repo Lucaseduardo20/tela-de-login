@@ -2,7 +2,7 @@ import styled, {css} from "styled-components";
 
 const LoginBox = styled.div`
     width: 40%;
-    height: 56%;
+    height: 70%;
     background-color: #fefefe;
     display: flex;
     flex-direction: column;

@@ -14,7 +14,7 @@ const Formulario = styled.div`
 
         > input {
             width: 90%;
-            height: 40px;
+            height: 30px;
             font-size: 20px;
             border: none;
             border-bottom: 1px solid rgba(229, 229, 229, 1);
@@ -30,9 +30,9 @@ const Formulario = styled.div`
             }
         }
         
-        > button {
-            width: 95%;
-            height: 50px;
+        > button.login {
+            width: 35%;
+            height: 30px;
             color: white;
             font-size: 20px;
             text-transform: uppercase;
@@ -47,6 +47,32 @@ const Formulario = styled.div`
                 background-color: #53ccca;
 
             }
+        }
+
+        > button.cadastro {
+            width: 55%;
+            height: 30px;
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            background-color: #ec6285;
+            transition: 1s;
+
+            
+            &:hover {
+                cursor: pointer;
+                background-color: white;
+                color: #ec6285;
+            }
+        }
+
+        > span {
+            margin: 20px 0 20px 0;
+            color: grey;
+            text-transform: uppercase;
         }
     }
 `

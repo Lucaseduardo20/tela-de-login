@@ -8,7 +8,9 @@ function Validate (props) {
     const isValid = validateForm()
 
     const validateForm = () =>{
-
+        if(userName == ""){
+            alert("email invalido");
+        }
     }
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import FormularioStyled from './style';
 import Validate from '../Validate';
+import RegisterBox from '../RegisterBox'
 
 function Formulario(props) {
 	function validateForm (_props) {
@@ -21,8 +22,10 @@ function Formulario(props) {
 	<FormularioStyled>
 		<form onSubmit={validateForm}>
 			<input type="text" placeholder="Username"></input>
-			<input type="password" placeholder="Password"></input>
-			<button type='submit'>Sign In</button>
+			<input type="text" placeholder="Password"></input>
+			<button class="login" type='submit'>Sign In</button>
+			<span>Ainda não possui cadastro?</span>
+			<button class="cadastro" type='button' onClick={RegisterBox}>Register</button>
 		</form>
 	</FormularioStyled>
 	)
